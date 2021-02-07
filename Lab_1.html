@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab_1</title>
+    </head>
+    <style>
+        .dd{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 200px;
+            width: 50%;
+            height: 500px;
+            padding: 20px;
+            background-color: #898376;
+            box-shadow:  0px 0px 10px #888888;
+            font-size: 30px;
+        }
+        li{
+            padding: 20px;
+        }
+    </style>
+    <body>
+        <div class="dd">
+            <h2 style="color: blueviolet; text-shadow: 0px 0px 2px black ;">User Information</h2>
+            <ul>
+                <li id = "Name" style="color: aqua"></li>
+                <li id = "BirthDate" style="color: #3bd926"></li>
+                <li id = "Education" style="color: #465852"></li>
+                <li id = "State" style="color: #f73a42"></li>
+                <li id = "Address" style="color: #e2e2e2"></li>
+            </ul>
+        </div>
+    </body>
+</html>
+
+<script>
+    const Name= prompt("What is your name? ");
+    const DB= prompt("Date of birth");
+    const Edu= prompt("Education level? BA, Master, none");
+    const state= prompt("What is your social state? Single, Married, Complicated");
+    const place= prompt("Where are you from?");
+    alert("welcome MR/S. " + Name + " From "+ place);
+    console.log("Name",Name);
+    console.log("BirthDate",DB);
+    console.log("Education level",Edu);
+    console.log("social state",state);
+    console.log("address",place);
+    document.getElementById("Name").innerHTML = Name;
+    document.getElementById("BirthDate").innerHTML = DB;
+    document.getElementById("Education").innerHTML = Edu;
+    document.getElementById("State").innerHTML = state;
+    document.getElementById("Address").innerHTML = place;
+</script>
