@@ -75,6 +75,7 @@
 - `border-radius: 5px;`
 > ### We can control a box how ever we want, make design you want and have fun.
 # Arrays
+![arrays](http://4.bp.blogspot.com/-OB-Cnc7tUUg/VkSpsp1UsXI/AAAAAAAAJ4Y/zm2EzPX-i8E/s1600/Array%2BIndex.jpg)
 > **A special type of variables that can store more than one value of related information.**
 ```
 let arr= ['jordan', 'canada', 'UAE', 'japan'];
@@ -131,8 +132,8 @@ switch (switch-value){
 ![truthyValues](https://xavierchow.github.io/images/js-coercion-table.png)
 > All values evaluate to either *true* or *false*.
 # Loops 
-> they **_check repeatedly_** a condition if _true_ a **code block** will run.
 ![loops](https://excelmate.files.wordpress.com/2014/09/shutterstock_173122277.jpg)
+> they **_check repeatedly_** a condition if _true_ a **code block** will run.
 ### for 
 ```
 for(var x = 0; x < 10; x++){
@@ -156,4 +157,4 @@ do{
 }while(x < 10);
 ```
 
-> loops are the best when dealing with arrays, but the performance is not ideal
+> ## loops are the best when dealing with arrays, but the performance is not ideal
