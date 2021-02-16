@@ -64,3 +64,13 @@
 *- They often require that you use class names in your HTML code that only control the presentation of the page.*
 *- In order to satisfy a wide variety of needs, they often contain more code than you need for your particular web page.*
 ## Using multiple Style files
+
+
+# JS Functions, Methods and Objects
+> **A function let’s you group a series of statements and then call them on command as many times as you want.**
+```
+function getSummation(a, b){
+    sum = a + b;
+    return sum;
+}
+```
